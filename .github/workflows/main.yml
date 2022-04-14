@@ -131,8 +131,3 @@ jobs:
           password: ${{ SECRETS.SERVER_PASSWORD }}
           script: |
             rm -rf public_html/${{github.sha}}.tar.gz
-
-      - name: Remove Artifacts
-        uses: c-hive/gha-remove-artifacts@v1.2.0
-        with:
-          age: "10 minutes"
