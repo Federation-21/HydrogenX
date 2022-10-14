@@ -131,3 +131,4 @@ jobs:
           password: ${{ SECRETS.SERVER_PASSWORD }}
           script: |
             rm -rf public_html/${{github.sha}}.tar.gz
+            composer install
