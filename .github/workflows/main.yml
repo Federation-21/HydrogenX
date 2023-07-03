@@ -53,7 +53,7 @@ jobs:
           username: ${{ SECRETS.SERVER_USERNAME }}
           password: ${{ SECRETS.SERVER_PASSWORD }}
           source: ${{github.sha}}.tar.gz
-          target: public_html
+          target: domains/codebumble.net/public_html
 
       - name: Extract archive and create directory
         uses: appleboy/ssh-action@master
@@ -65,7 +65,7 @@ jobs:
           password: ${{ SECRETS.SERVER_PASSWORD }}
           envs: GITHUB_SHA
           script: |
-            tar xzf public_html/${GITHUB_SHA}.tar.gz -C "public_html"
+            tar xzf domains/codebumble.net/public_html/${GITHUB_SHA}.tar.gz -C "domains/codebumble.net/public_html/prodigy"
 
   active-release:
     name: Codebumble Server 1 - Active Release
@@ -101,7 +101,7 @@ jobs:
       - name: Migration Init
         uses: appleboy/ssh-action@master
         env:
-          BASE_PATH: public_html
+          BASE_PATH: domains/codebumble.net/public_html
           ARTISAN_MIGRATE: ${{ SECRETS.ARTISAN_MIGRATE }}
           SEED_META: ${{ SECRETS.SEED_META }}
         with:
@@ -130,4 +130,4 @@ jobs:
           username: ${{ SECRETS.SERVER_USERNAME }}
           password: ${{ SECRETS.SERVER_PASSWORD }}
           script: |
-            rm -rf public_html/${{github.sha}}.tar.gz
+            rm -rf domains/codebumble.net/public_html/${{github.sha}}.tar.gz
