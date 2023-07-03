@@ -67,7 +67,7 @@ jobs:
           password: ${{ SECRETS.SERVER_PASSWORD }}
           envs: GITHUB_SHA
           script: |
-            tar xzf domains/codebumble.net/public_html/${GITHUB_SHA}.tar.gz -C "domains/codebumble.net/public_html/prodigy"
+            tar xzf domains/codebumble.net/public_html/${GITHUB_SHA}.tar.gz -C "domains/codebumble.net/public_html"
 
   active-release:
     name: Codebumble Server 1 - Active Release
