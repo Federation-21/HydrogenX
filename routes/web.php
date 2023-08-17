@@ -23,8 +23,8 @@ Route::get('/page-2', $controller_path . '\pages\Page2@index')->name('pages-page
 Route::get('/pages/misc-error', $controller_path . '\pages\MiscError@index')->name('pages-misc-error');
 
 // authentication
-Route::get('/auth/login-basic', $controller_path . '\authentications\LoginBasic@index')->name('auth-login-basic');
-Route::get('/auth/register-basic', $controller_path . '\authentications\RegisterBasic@index')->name('auth-register-basic');
+Route::get('/sign-in', $controller_path . '\authentications\Login@index')->name('auth-login');
+Route::get('/registration', $controller_path . '\authentications\Register@index')->name('auth-register');
 Route::get('/', [Routes::class, 'index'])->name('index');
 Route::get('about', [Routes::class, 'about'])->name('about');
 Route::get('terms-of-service', [Routes::class, 'tos'])->name('tos');
