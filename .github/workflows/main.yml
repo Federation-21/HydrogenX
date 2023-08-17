@@ -2,7 +2,7 @@ name: Deploy Application
 
 on:
   push:
-    branches: [main, revert]
+    branches: [main, backend+frontend]
 
 jobs:
   create-deployment-environment:
