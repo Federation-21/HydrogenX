@@ -2,7 +2,7 @@ name: Deploy Application
 
 on:
   push:
-    branches: [backend+frontend]
+    branches: [main]
 
 jobs:
   create-deployment-environment:
@@ -136,3 +136,4 @@ jobs:
           password: ${{ SECRETS.SERVER_PASSWORD }}
           script: |
             rm -rf domains/codebumble.net/public_html/${{github.sha}}.tar.gz
+            composer install
