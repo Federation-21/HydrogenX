@@ -133,7 +133,7 @@
                         </li>
                     </ul>
                     <!-- navigation items -->
-                    <a href="{{urk("https://accounts.codebumble.com/login")}}"
+                    <a href="https://accounts.codebumble.com/login" target="_blank"
                         class="hidden lg:block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 rounded-full mx-2 py-2 px-4 text-center uppercase antialiased text-xs transition-all">Login</a>
                 </nav>
                 <!-- .cb-nav closed -->
