@@ -43,9 +43,6 @@
                                 </a>
                             </li>
                             <li>
-
-                                {{-- পিসিকালচার হাউসিং সোসাইটি।
-শেকেরটেক, আদাবর। --}}
                                 <i class="far fa-location"></i>
                                 Glory Saleh Garden, 37/5, Block - B, PC Culture Housing Society, Shekhertek, adabor, Dhaka -
                                 1207, Bangladesh

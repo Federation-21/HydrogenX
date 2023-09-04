@@ -554,7 +554,8 @@
                                         &mdash; Ahad Raiyan
                                     </figcaption>
                                 </figure>
-                                <img src="{{ asset('assets/images/contents/ahad.jpg') }}" alt="client" class="author">
+                                <img src="{{ asset('assets/images/contents/ahad.jpg') }}" alt="client"
+                                    class="author object-cover">
                             </div>
 
                         </div>
@@ -567,7 +568,8 @@
                                         &mdash; Asif Iqbal
                                     </figcaption>
                                 </figure>
-                                <img src="{{ asset('assets/images/contents/asif.jpg') }}" alt="client" class="author">
+                                <img src="{{ asset('assets/images/contents/asif.jpg') }}" alt="client"
+                                    class="author object-cover">
                             </div>
 
                         </div>
@@ -580,24 +582,11 @@
                                     </figcaption>
                                 </figure>
                                 <img src="{{ asset('assets/images/contents/avatar.svg') }}" alt="client"
-                                    class="author">
+                                    class="author object-cover">
                             </div>
 
                         </div>
-                        <div class="splide__slide slide-item py-8">
-                            <div class="testimonial-body">
-                                <figure class="speech">
-                                    <q class="">It's a great place to learn Web development and other programming
-                                        languages, even for beginners who do not have previous knowledge about coding.</q>
-                                    <figcaption class="py-3 font-bold">
-                                        &mdash; Ahad Raiyan
-                                    </figcaption>
-                                </figure>
-                                <img src="{{ asset('assets/images/contents/avatar.svg') }}" alt="client"
-                                    class="author">
-                            </div>
 
-                        </div>
                     </div>
                 </div>
             </div>
