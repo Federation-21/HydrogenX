@@ -380,50 +380,6 @@
                         </div>
                         <div class="splide__slide slide-item">
                             <div class="slide-item-body">
-                                <img src="{{ asset('assets/images/contents/team-members/yy.jpg') }}" alt="team-member"
-                                    class="rounded-lg h-350">
-                                <div class="social">
-                                    <ul class="flex">
-                                        <li class="mr-4 hover:text-blue-600 transition-all duration-500"><a
-                                                href="https://www.facebook.com/swnyy" class="text-2xl"><svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-facebook">
-                                                    <path
-                                                        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
-                                                    </path>
-                                                </svg></a></li>
-                                        <li class="mr-4 hover:text-blue-600 transition-all duration-500"><a
-                                                href="https://www.github.com/yyshawon" class="text-2xl"><svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-github">
-                                                    <path
-                                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                                                    </path>
-                                                </svg></a></li>
-                                        <li class="mr-4 hover:text-blue-600 transition-all duration-500"><a
-                                                href="mailto:yyshawon@gmail.com" class="text-2xl">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-at-sign">
-                                                    <circle cx="12" cy="12" r="4"></circle>
-                                                    <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
-                                                </svg></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="my-3 text-gray-800 dark:text-white">
-                                <h2 class="text-2xl font-bold hover:text-indigo-700 transition-all duration-500">Fazlay
-                                    Rabby Shawon</h2>
-                                <p class="dark:text-gray-300">VP of Social Media</p>
-                            </div>
-                        </div>
-                        <div class="splide__slide slide-item">
-                            <div class="slide-item-body">
                                 <img src="{{ asset('assets/images/contents/team-members/sunny.jpg') }}" alt="team-member"
                                     class="rounded-lg h-350">
                                 <div class="social">
@@ -466,6 +422,51 @@
                                 <p class="dark:text-gray-300">Motion graphics designer and video editor</p>
                             </div>
                         </div>
+                        <div class="splide__slide slide-item">
+                            <div class="slide-item-body">
+                                <img src="{{ asset('assets/images/contents/team-members/yy.jpg') }}" alt="team-member"
+                                    class="rounded-lg h-350">
+                                <div class="social">
+                                    <ul class="flex">
+                                        <li class="mr-4 hover:text-blue-600 transition-all duration-500"><a
+                                                href="https://www.facebook.com/swnyy" class="text-2xl"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-facebook">
+                                                    <path
+                                                        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                    </path>
+                                                </svg></a></li>
+                                        <li class="mr-4 hover:text-blue-600 transition-all duration-500"><a
+                                                href="https://www.github.com/yyshawon" class="text-2xl"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-github">
+                                                    <path
+                                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                                    </path>
+                                                </svg></a></li>
+                                        <li class="mr-4 hover:text-blue-600 transition-all duration-500"><a
+                                                href="mailto:yyshawon@gmail.com" class="text-2xl">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-at-sign">
+                                                    <circle cx="12" cy="12" r="4"></circle>
+                                                    <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
+                                                </svg></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="my-3 text-gray-800 dark:text-white">
+                                <h2 class="text-2xl font-bold hover:text-indigo-700 transition-all duration-500">Fazlay
+                                    Rabby Shawon</h2>
+                                <p class="dark:text-gray-300">VP of Social Media</p>
+                            </div>
+                        </div>
+
                         <div class="splide__slide slide-item">
                             <div class="slide-item-body">
                                 <img src="{{ asset('assets/images/contents/team-members/anik.jpg') }}" alt="team-member"
