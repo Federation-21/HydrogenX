@@ -230,7 +230,8 @@
                 </h2>
                 <p class="text-gray-200 text-center text-xl mt-3">Please check back later. We're working on it. or submit a
                     <a href="{{ route('contact') }}" class="underline decoration-indigo-100 underline-offset-2">Call
-                        Back</a> request!</p>
+                        Back</a> request!
+                </p>
             </div>
         </div>
     </section>
@@ -547,11 +548,35 @@
                         <div class="splide__slide slide-item py-8">
                             <div class="testimonial-body">
                                 <figure class="speech">
-                                    <q class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
-                                        iusto corrupti, facilis, ullam voluptatum sed possimus natus sunt excepturi at
-                                        sequi, cupiditate error. Quas iste culpa, rerum obcaecati accusamus ullam?</q>
+                                    <q class="">It's a great place to learn Web development and other programming
+                                        languages, even for beginners who do not have previous knowledge about coding.</q>
                                     <figcaption class="py-3 font-bold">
-                                        &mdash; Jeremy Keith, <cite>Mental models</cite>
+                                        &mdash; Ahad Raiyan
+                                    </figcaption>
+                                </figure>
+                                <img src="{{ asset('assets/images/contents/ahad.jpg') }}" alt="client" class="author">
+                            </div>
+
+                        </div>
+
+                        <div class="splide__slide slide-item py-8">
+                            <div class="testimonial-body">
+                                <figure class="speech">
+                                    <q class="">This is a great institute to learn web development.</q>
+                                    <figcaption class="py-3 font-bold">
+                                        &mdash; Asif Iqbal
+                                    </figcaption>
+                                </figure>
+                                <img src="{{ asset('assets/images/contents/asif.jpg') }}" alt="client" class="author">
+                            </div>
+
+                        </div>
+                        <div class="splide__slide slide-item py-8">
+                            <div class="testimonial-body">
+                                <figure class="speech">
+                                    <q class="">Very helpful for beginners. It's a good journey 😊</q>
+                                    <figcaption class="py-3 font-bold">
+                                        &mdash; Prioti Saha
                                     </figcaption>
                                 </figure>
                                 <img src="{{ asset('assets/images/contents/avatar.svg') }}" alt="client"
@@ -562,26 +587,10 @@
                         <div class="splide__slide slide-item py-8">
                             <div class="testimonial-body">
                                 <figure class="speech">
-                                    <q class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
-                                        iusto corrupti, facilis, ullam voluptatum sed possimus natus sunt excepturi at
-                                        sequi, cupiditate error. Quas iste culpa, rerum obcaecati accusamus ullam?</q>
+                                    <q class="">It's a great place to learn Web development and other programming
+                                        languages, even for beginners who do not have previous knowledge about coding.</q>
                                     <figcaption class="py-3 font-bold">
-                                        &mdash; Jeremy Keith, <cite>Mental models</cite>
-                                    </figcaption>
-                                </figure>
-                                <img src="{{ asset('assets/images/contents/avatar.svg') }}" alt="client"
-                                    class="author">
-                            </div>
-
-                        </div>
-                        <div class="splide__slide slide-item py-8">
-                            <div class="testimonial-body">
-                                <figure class="speech">
-                                    <q class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
-                                        iusto corrupti, facilis, ullam voluptatum sed possimus natus sunt excepturi at
-                                        sequi, cupiditate error. Quas iste culpa, rerum obcaecati accusamus ullam?</q>
-                                    <figcaption class="py-3 font-bold">
-                                        &mdash; Jeremy Keith, <cite>Mental models</cite>
+                                        &mdash; Ahad Raiyan
                                     </figcaption>
                                 </figure>
                                 <img src="{{ asset('assets/images/contents/avatar.svg') }}" alt="client"
