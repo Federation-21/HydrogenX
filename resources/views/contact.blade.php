@@ -37,9 +37,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:contact@codebumble.com">
+                                <a href="mailto:contact@codebumble.net">
                                     <i class="far fa-envelope-open-text"></i>
-                                    contact@codebumble.com
+                                    contact@codebumble.net
                                 </a>
                             </li>
                             <li>
